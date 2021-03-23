@@ -2,233 +2,230 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.min.css">
-    <title>Glee</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.min.css">
+  <title>Glee</title>
 </head>
 
 <body>
-    <header class="header">
-        <div class="container">
-            <div class="header-inner">
-                <a class="logo" href="#">
-                    <img class="logo__img" src="images/logo.png" alt="logo">
-                </a>
-                <nav class="menu">
-                    <ul class="menu__list">
-                        <li class="menu__list-item">
-                            <a class="menu__list-link" href="#">Home +</a>
-                        </li>
-                        <li class="menu__list-item">
-                            <a class="menu__list-link" href="#">About</a>
-                        </li>
-                        <li class="menu__list-item">
-                            <a class="menu__list-link" href="#">Services</a>
-                        </li>
-                        <li class="menu__list-item">
-                            <a class="menu__list-link" href="#">Pages +</a>
-                        </li>
-                        <li class="menu__list-item">
-                            <a class="menu__list-link" href="#">News</a>
-                        </li>
-                        <li class="menu__list-item">
-                            <a class="menu__list-link" href="#">Contact</a>
-                        </li>
-                    </ul>
-                </nav>
-                <div class="user-nav">
-                    <button class="user-nav__link user-nav__link--search" href="#">
-                        <img class="user-nav__img" src="images/icons/search.svg" alt="search btn">
-                    </button>
-                    <div class="user-nav__inner">
-                        <a class="user-nav__link" href="#">
-                            <img class="user-nav__img" src="images/icons/heart.svg" alt="heart btn">
-                            <div class="user-nav__num">0</div>
-                        </a>
-                        <a class="user-nav__link" href="#">
-                            <img class="user-nav__img" src="images/icons/card.svg" alt="card btn">
-                            <div class="user-nav__num">0</div>
-                        </a>
-                    </div>
-                    <button class="user-nav__link user-nav__link--dots" href="#">
-                        <img class="user-nav__img" src="images/icons/dots.svg" alt="dots btn">
-                    </button>
-                </div>
-            </div>
+  <header class="header">
+    <div class="container">
+      <div class="header-inner">
+        <a class="logo" href="#">
+          <img class="logo__img" src="images/logo.png" alt="logo">
+        </a>
+        <nav class="menu">
+          <ul class="menu__list">
+            <li class="menu__list-item">
+              <a class="menu__list-link" href="#">Home +</a>
+            </li>
+            <li class="menu__list-item">
+              <a class="menu__list-link" href="#">About</a>
+            </li>
+            <li class="menu__list-item">
+              <a class="menu__list-link" href="#">Services</a>
+            </li>
+            <li class="menu__list-item">
+              <a class="menu__list-link" href="#">Pages +</a>
+            </li>
+            <li class="menu__list-item">
+              <a class="menu__list-link" href="#">News</a>
+            </li>
+            <li class="menu__list-item">
+              <a class="menu__list-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="user-nav">
+          <button class="user-nav__link user-nav__link--search" href="#">
+            <span class="sr-only">Search</span>
+          </button>
+          <div class="user-nav__inner">
+            <a class="user-nav__link user-nav__link--heart" href="#">
+              <span class="sr-only">Liked products</span>
+              <div class="user-nav__num">0</div>
+            </a>
+            <a class="user-nav__link user-nav__link--card" href="#">
+              <span class="sr-only">Card</span>
+              <div class="user-nav__num">0</div>
+            </a>
+          </div>
+          <button class="user-nav__link user-nav__link--dots" href="#">
+            <span class="sr-only">More products</span>
+          </button>
         </div>
-    </header>
+      </div>
+    </div>
+  </header>
 
-    <main class="main">
-        <section class="top-slider">
-            <div class="container top-slider__container">
-                <div class="top-slider__inner">
-                    <div class="top-slider__item">
-                        <div class="top-slider__content">
-                            <h3 class="top-slider__content-title">
-                                SMART AND
-                                TRENDY
-                            </h3>
-                            <p class="top-slider__content-text">
-                                Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
-                            </p>
-                            <a class="top-slider__content-btn" href="#">
-                                Shop Now
-                                <svg width="22" height="9" viewBox="0 0 22 9">
-                                    <path
-                                        d="M535.3,654.472h16.948l-0.1,2.857a0.292,0.292,0,0,0,0,.41l0.172,0.172a0.28,0.28,0,0,0,.2.086,0.285,0.285,0,0,0,.2-0.084l4.193-4.211A0.292,0.292,0,0,0,557,653.5a0.283,0.283,0,0,0-.084-0.2l-4.193-4.213a0.289,0.289,0,0,0-.407,0l-0.172.173a0.287,0.287,0,0,0-.084.2,0.278,0.278,0,0,0,.084.2l0.113,2.865H535.292a0.3,0.3,0,0,0-.292.295v1.37A0.292,0.292,0,0,0,535.3,654.472Z"
-                                        transform="translate(-535 -649)" />
-                                </svg>
-                            </a>
-                        </div>
-                        <img class="top-slider__img" src="images/slider/product-1.png" alt="product preview">
-                    </div>
-                    <div class="top-slider__item">
-                        <div class="top-slider__content">
-                            <h3 class="top-slider__content-title">
-                                SMART AND
-                                TRENDY
-                            </h3>
-                            <p class="top-slider__content-text">
-                                Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
-                            </p>
-                            <a class="top-slider__content-btn" href="#">
-                                Shop Now
-                                <svg width="22" height="9" viewBox="0 0 22 9">
-                                    <path
-                                        d="M535.3,654.472h16.948l-0.1,2.857a0.292,0.292,0,0,0,0,.41l0.172,0.172a0.28,0.28,0,0,0,.2.086,0.285,0.285,0,0,0,.2-0.084l4.193-4.211A0.292,0.292,0,0,0,557,653.5a0.283,0.283,0,0,0-.084-0.2l-4.193-4.213a0.289,0.289,0,0,0-.407,0l-0.172.173a0.287,0.287,0,0,0-.084.2,0.278,0.278,0,0,0,.084.2l0.113,2.865H535.292a0.3,0.3,0,0,0-.292.295v1.37A0.292,0.292,0,0,0,535.3,654.472Z"
-                                        transform="translate(-535 -649)" />
-                                </svg>
-                            </a>
-                        </div>
-                        <img class="top-slider__img" src="images/slider/product-1.png" alt="product preview">
-                    </div>
-                    <div class="top-slider__item">
-                        <div class="top-slider__content">
-                            <h3 class="top-slider__content-title">
-                                SMART AND
-                                TRENDY
-                            </h3>
-                            <p class="top-slider__content-text">
-                                Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
-                            </p>
-                            <a class="top-slider__content-btn" href="#">
-                                Shop Now
-                                <svg width="22" height="9" viewBox="0 0 22 9">
-                                    <path
-                                        d="M535.3,654.472h16.948l-0.1,2.857a0.292,0.292,0,0,0,0,.41l0.172,0.172a0.28,0.28,0,0,0,.2.086,0.285,0.285,0,0,0,.2-0.084l4.193-4.211A0.292,0.292,0,0,0,557,653.5a0.283,0.283,0,0,0-.084-0.2l-4.193-4.213a0.289,0.289,0,0,0-.407,0l-0.172.173a0.287,0.287,0,0,0-.084.2,0.278,0.278,0,0,0,.084.2l0.113,2.865H535.292a0.3,0.3,0,0,0-.292.295v1.37A0.292,0.292,0,0,0,535.3,654.472Z"
-                                        transform="translate(-535 -649)" />
-                                </svg>
-                            </a>
-                        </div>
-                        <img class="top-slider__img" src="images/slider/product-1.png" alt="product preview">
-                    </div>
-                </div>
+  <main class="main">
+    <section class="top-slider">
+      <div class="container top-slider__container">
+        <div class="top-slider__inner">
+          <div class="top-slider__item">
+            <div class="top-slider__content">
+              <h3 class="top-slider__content-title">
+                Smart and trendy
+              </h3>
+              <p class="top-slider__content-text">
+                Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+              </p>
+              <a class="top-slider__content-btn" href="#">
+                Shop Now
+                <svg width="22" height="9" viewBox="0 0 22 9">
+                  <path
+                    d="M535.3,654.472h16.948l-0.1,2.857a0.292,0.292,0,0,0,0,.41l0.172,0.172a0.28,0.28,0,0,0,.2.086,0.285,0.285,0,0,0,.2-0.084l4.193-4.211A0.292,0.292,0,0,0,557,653.5a0.283,0.283,0,0,0-.084-0.2l-4.193-4.213a0.289,0.289,0,0,0-.407,0l-0.172.173a0.287,0.287,0,0,0-.084.2,0.278,0.278,0,0,0,.084.2l0.113,2.865H535.292a0.3,0.3,0,0,0-.292.295v1.37A0.292,0.292,0,0,0,535.3,654.472Z"
+                    transform="translate(-535 -649)" />
+                </svg>
+              </a>
             </div>
-        </section>
-    </main>
-
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-inner">
-                <div class="footer-inner__item">
-                    <a class="logo" href="#">
-                        <img class="logo__img" src="images/logo.png" alt="logo">
-                    </a>
-                    <div class="footer-inner__adress">
-                        <a class="footer-inner__adress-adress footer-inner__adress-link" href="#">
-                            ADDRESS: 4772 Wines Lane
-                            Houston, TX 77032
-                        </a>
-                        <a class="footer-inner__adress-phone footer-inner__adress-link" href="tel:+8323475843">
-                            Telephone: +832-347-5843
-                        </a>
-                        <a class="footer-inner__adress-email footer-inner__adress-link" href="mailto:contact@Glee.com">
-                            Email: contact@Glee.com
-                        </a>
-                    </div>
-                </div>
-                <div class="footer-inner__item">
-                    <h6 class="footer-inner__title">
-                        Services
-                    </h6>
-                    <ul class="footer-inner__list">
-                        <li class="footer-inner__list-item">
-                            <a class="footer-inner__list-link" href="#">About us</a>
-                        </li>
-                        <li class="footer-inner__list-item">
-                            <a class="footer-inner__list-link" href="#">Return Policy</a>
-                        </li>
-                        <li class="footer-inner__list-item">
-                            <a class="footer-inner__list-link" href="#">Our Blog</a>
-                        </li>
-                        <li class="footer-inner__list-item">
-                            <a class="footer-inner__list-link" href="#">Contact Us</a>
-                        </li>
-                        <li class="footer-inner__list-item">
-                            <a class="footer-inner__list-link" href="#">Terms & Condition</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="footer-inner__item">
-                    <h6 class="footer-inner__title">
-                        Account
-                    </h6>
-                    <ul class="footer-inner__list">
-                        <li class="footer-inner__list-item">
-                            <a class="footer-inner__list-link" href="#">Your Account</a>
-                        </li>
-                        <li class="footer-inner__list-item">
-                            <a class="footer-inner__list-link" href="#">Checkout</a>
-                        </li>
-                        <li class="footer-inner__list-item">
-                            <a class="footer-inner__list-link" href="#">Login</a>
-                        </li>
-                        <li class="footer-inner__list-item">
-                            <a class="footer-inner__list-link" href="#">Register</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="footer-inner__item footer-inner__item-form">
-                    <h6 class="footer-inner__title">
-                        newsletter
-                    </h6>
-                    <p class="footer-inner__text">
-                        Subscribe by our newsletter and get
-                        update protidin.
-                    </p>
-                    <form action="/" class="footer-inner__form">
-                        <input type="email" class="footer-inner__form-input" placeholder="Email address" required>
-                        <button class="footer-inner__form-btn">Subscribe</button>
-                    </form>
-                </div>
+            <img class="top-slider__img" src="images/slider/product-1.png" alt="product preview">
+          </div>
+          <div class="top-slider__item">
+            <div class="top-slider__content">
+              <h3 class="top-slider__content-title">
+                Smart and trendy
+              </h3>
+              <p class="top-slider__content-text">
+                Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+              </p>
+              <a class="top-slider__content-btn" href="#">
+                Shop Now
+                <svg width="22" height="9" viewBox="0 0 22 9">
+                  <path
+                    d="M535.3,654.472h16.948l-0.1,2.857a0.292,0.292,0,0,0,0,.41l0.172,0.172a0.28,0.28,0,0,0,.2.086,0.285,0.285,0,0,0,.2-0.084l4.193-4.211A0.292,0.292,0,0,0,557,653.5a0.283,0.283,0,0,0-.084-0.2l-4.193-4.213a0.289,0.289,0,0,0-.407,0l-0.172.173a0.287,0.287,0,0,0-.084.2,0.278,0.278,0,0,0,.084.2l0.113,2.865H535.292a0.3,0.3,0,0,0-.292.295v1.37A0.292,0.292,0,0,0,535.3,654.472Z"
+                    transform="translate(-535 -649)" />
+                </svg>
+              </a>
             </div>
-            <div class="footer-bottom">
-                <p class="footer-bottom__copy">
-                    ©2020 CopyRight Example. All rights reserved.
-                </p>
-                <ul class="footer-bottom__list">
-                    <li class="footer-bottom__list-item">
-                        <a class="footer-bottom__list-link" href="#">Home</a>
-                    </li>
-                    <li class="footer-bottom__list-item">
-                        <a class="footer-bottom__list-link" href="#">About</a>
-                    </li>
-                    <li class="footer-bottom__list-item">
-                        <a class="footer-bottom__list-link" href="#">Blog</a>
-                    </li>
-                    <li class="footer-bottom__list-item">
-                        <a class="footer-bottom__list-link" href="#">Contact</a>
-                    </li>
-                </ul>
+            <img class="top-slider__img" src="images/slider/product-1.png" alt="product preview">
+          </div>
+          <div class="top-slider__item">
+            <div class="top-slider__content">
+              <h3 class="top-slider__content-title">
+                Smart and trendy
+              </h3>
+              <p class="top-slider__content-text">
+                Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+              </p>
+              <a class="top-slider__content-btn" href="#">
+                Shop Now
+                <svg width="22" height="9" viewBox="0 0 22 9">
+                  <path
+                    d="M535.3,654.472h16.948l-0.1,2.857a0.292,0.292,0,0,0,0,.41l0.172,0.172a0.28,0.28,0,0,0,.2.086,0.285,0.285,0,0,0,.2-0.084l4.193-4.211A0.292,0.292,0,0,0,557,653.5a0.283,0.283,0,0,0-.084-0.2l-4.193-4.213a0.289,0.289,0,0,0-.407,0l-0.172.173a0.287,0.287,0,0,0-.084.2,0.278,0.278,0,0,0,.084.2l0.113,2.865H535.292a0.3,0.3,0,0,0-.292.295v1.37A0.292,0.292,0,0,0,535.3,654.472Z"
+                    transform="translate(-535 -649)" />
+                </svg>
+              </a>
             </div>
+            <img class="top-slider__img" src="images/slider/product-1.png" alt="product preview">
+          </div>
         </div>
-    </footer>
+      </div>
+    </section>
+  </main>
 
-    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
-    <script src="js/main.js"></script>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-inner__item">
+          <a class="logo" href="#">
+            <img class="logo__img" src="images/logo.png" alt="logo">
+          </a>
+          <div class="footer-inner__adress">
+            <a class="footer-inner__adress-adress footer-inner__adress-link" href="#">
+              ADDRESS: 4772 Wines Lane
+              Houston, TX 77032
+            </a>
+            <a class="footer-inner__adress-phone footer-inner__adress-link" href="tel:+8323475843">
+              Telephone: +832-347-5843
+            </a>
+            <a class="footer-inner__adress-email footer-inner__adress-link" href="mailto:contact@Glee.com">
+              Email: contact@Glee.com
+            </a>
+          </div>
+        </div>
+        <div class="footer-inner__item">
+          <h6 class="footer-inner__title">
+            Services
+          </h6>
+          <ul class="footer-inner__list">
+            <li class="footer-inner__list-item">
+              <a class="footer-inner__list-link" href="#">About us</a>
+            </li>
+            <li class="footer-inner__list-item">
+              <a class="footer-inner__list-link" href="#">Return Policy</a>
+            </li>
+            <li class="footer-inner__list-item">
+              <a class="footer-inner__list-link" href="#">Our Blog</a>
+            </li>
+            <li class="footer-inner__list-item">
+              <a class="footer-inner__list-link" href="#">Contact Us</a>
+            </li>
+            <li class="footer-inner__list-item">
+              <a class="footer-inner__list-link" href="#">Terms & Condition</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-inner__item">
+          <h6 class="footer-inner__title">
+            Account
+          </h6>
+          <ul class="footer-inner__list">
+            <li class="footer-inner__list-item">
+              <a class="footer-inner__list-link" href="#">Your Account</a>
+            </li>
+            <li class="footer-inner__list-item">
+              <a class="footer-inner__list-link" href="#">Checkout</a>
+            </li>
+            <li class="footer-inner__list-item">
+              <a class="footer-inner__list-link" href="#">Login</a>
+            </li>
+            <li class="footer-inner__list-item">
+              <a class="footer-inner__list-link" href="#">Register</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-inner__item footer-inner__item-form">
+          <h6 class="footer-inner__title">
+            newsletter
+          </h6>
+          <p class="footer-inner__text">
+            Subscribe by our newsletter and get
+            update protidin.
+          </p>
+          <form action="/" class="footer-inner__form">
+            <input type="email" class="footer-inner__form-input" placeholder="Email address" required>
+            <button class="footer-inner__form-btn">Subscribe</button>
+          </form>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p class="footer-bottom__copy">
+          ©2020 CopyRight Example. All rights reserved.
+        </p>
+        <ul class="footer-bottom__list">
+          <li class="footer-bottom__list-item">
+            <a class="footer-bottom__list-link" href="#">Home</a>
+          </li>
+          <li class="footer-bottom__list-item">
+            <a class="footer-bottom__list-link" href="#">About</a>
+          </li>
+          <li class="footer-bottom__list-item">
+            <a class="footer-bottom__list-link" href="#">Blog</a>
+          </li>
+          <li class="footer-bottom__list-item">
+            <a class="footer-bottom__list-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+  <script src="js/main.js"></script>
 </body>
 
 </html>

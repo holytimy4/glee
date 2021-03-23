@@ -23,3 +23,10 @@ html{
   input,button,textarea,select {
     font: inherit;
   }
+  
+  button, 
+  button:active, 
+  button:focus {
+      border: transparent;
+      outline: transparent;
+  }
